@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.example.lab2.Fruit.FruitComparator;
-import com.example.lab2.Fruit.FruitComparatorDesc;
-
 public class Main {
 	public static void main(String[] args) {
 		List<Fruit> fl=new ArrayList<Fruit>();
@@ -36,6 +33,5 @@ public class Main {
 		for (int i=0 ; i<fl.size(); i++) {
 			System.out.println(fl.get(i).toString());
 		}
-		
 	}
 }
